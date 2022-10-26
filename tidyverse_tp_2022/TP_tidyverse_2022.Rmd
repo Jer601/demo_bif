@@ -1,0 +1,81 @@
+---
+title: "TP tidyverse"
+output: html_document
+date: "2022"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, eval = FALSE)
+```
+
+
+Load the library
+
+```r
+library(tidyverse)
+```
+
+
+# Exercice 1 - grades
+
+1. Import the dataset `grades.tsv` and store it in variable `grade`.
+
+```r
+grades <- read_tsv(file = "./data/grades.tsv")  # change path
+```
+
+2. Filter the data.frame to show only rows related to the year 2019 (column `Annee`)
+
+3. Filter the data.frame to show only rows related to the year 2019 (column `Annee`) and Cycle 1 (column `Cohorte`)
+
+4. Add an mean_exam column that contains the average of E1 and E2 (mean = (E1+E2)/2).
+
+5. How many students have an E2 score above 90 ?
+
+6. Rotate the data.frame to get the new columns: ID_etu, Exam, Grade, Annee, Cohort
+
+7. Compute the average of all exams combined by years and sort by decreasing averaged grade.
+
+8. Compute the average by exams and years.
+
+9. Import and attach the sex (`grades_sex.tsv`), then compute the average grade (all exams) by Year and by Sex.
+
+# Exercice 2 - babynames
+
+1. Import the csv file `babynames.csv` and store the data.frame in the variable `baby`.
+
+2. How many baby boys were named James in 1992 ?
+
+3. How many baby boys were named James in betwwen 1992 and 2001 ?
+
+4. How many baby boys were born 1992 ?
+
+5. How many baby boys were born in betwwen 1992 and 2001 ?
+
+6. What was the most commom name in 2000?
+
+7. How many girls were born in 2001?
+
+8. Are there more boys or girls born in 2001?
+
+# Exercice 3 - nycflights13
+
+```r
+library(nycflights13)
+View(airlines)
+View(flights)
+```
+
+1. How many different airlines are there?
+
+2. By joining airlines and flights, which airlines had the largest arrival delays? Display full names, no codes. 
+
+3. Join `flights` and `airports` by `dest` and `faa`. 
+Then for each `name`, compute the `distance` from NYC and the average `arr_delay`.
+Order by average delay, worst to best.
+
+4. Join `flights` and `airports` by `dest` and `faa`. 
+How many airports in `airports` are serviced by flights in `flights`? (i.e. how many places can you fly to direct from New York?) 
+
+
+

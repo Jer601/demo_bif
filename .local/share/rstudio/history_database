@@ -1,0 +1,40 @@
+1665667988776:class(1L)
+1665667997628:class(1)
+1665668010493:is.integer(1)
+1665668032172:is.integer(1L)
+1665668080922:class("a")
+1665668113838:a <- "salut"
+1665668113861:b <- "bonjour"
+1665668113885:paste(a, b)
+1665668138478:class(TRUE)
+1665668207165:is.na(NA)
+1665668383319:c(1,2,3)
+1665668394745:class(c(1,2,3))
+1665669246344:x <- c(1:5)
+1665669353206:y <- c(rep(4.5))
+1665669423612:y <- c(rep(4, ))
+1665669444658:y <- c(rep(4, 5))
+1665669557534:x+y
+1665669722385:z <- sum(x+y)
+1665670997566:objet1 <- read.csv('/home/public/R/TP2.csv')
+1665671068347:read.csv('/home/public/R/TP2.csv')
+1665671098845:objet1 <- read.csv('/home/public/R/TP2.csv')
+1665671765080:colnames(df)
+1665671897138:colnames(objet1)
+1665671999394:colnames(ID)
+1665672987389:/home/public/R/fruit.tsv dans un data.frame
+1665673008197:/home/public/R/fruit.tsv
+1665673137351:df_fichier <- read.table("/home/public/R/fruit.tsv")
+1665673254331:df <- data.frame
+1665673822109:data.frame [col=red]
+1665673933343:data.frame sum (col=red)
+1665673961614:data.frame <- [col=red]
+1665673983941:data.frame <- sum(col=red)
+1665674012809:data.frame <- sum(col=rouge)
+1665675519868:X <- read.csv("/home/public/R/bumpus.csv")
+1665675711009:sum (ind$surv)
+1665675757634:sum (individual$survival)
+1665675781365:sum (survival)
+1666276506300:mkdir tidyverse_tp_2022
+1666376638535:babynames <- read.csv("~/tidyverse_tp_2022/babynames.csv")
+1666376642769:View(babynames)

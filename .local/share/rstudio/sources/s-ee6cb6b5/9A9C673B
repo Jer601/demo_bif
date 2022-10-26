@@ -1,0 +1,31 @@
+{
+    "id": "9A9C673B",
+    "path": "~/tidyverse_tp_2022/TP_tidyverse_2022.Rmd",
+    "project_path": null,
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1666276618729.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "false",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "51,0",
+        "scrollLine": "42",
+        "rmdVisualModeLocation": "93:1134.4000244140625",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1666276575,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1666376451519,
+    "read_only": false,
+    "read_only_alternatives": []
+}

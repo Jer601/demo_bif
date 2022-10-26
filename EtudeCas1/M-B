@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mkdir -p {data,analyses,resultats,scripts}
+touch README.md
+
+ln -sf ./data/raw_data/ /home/public/EtudeCas1/raw_data
+ln -sf ./data/reference/ /home/public/rna_seq/reference
+
+cp /home/public/rna_seq/demo/adaptors.fa data/adaptors/
+
+chmod u+x ~/EtudeCas1/init.sh
+
